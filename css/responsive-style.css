@@ -48,6 +48,7 @@
 
     .header_wrapper .navbar-toggler:focus{
         box-shadow: none;
+        border: unset;
     }
 
     .header_wrapper .navbar .menu-navbar-nav{
