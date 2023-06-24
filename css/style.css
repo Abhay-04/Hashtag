@@ -247,3 +247,66 @@ body{
     height: 5rem;
     object-fit: cover;
 }
+
+/* ----------------About-section-styling----------------------------- */
+.about_wrapper{
+    padding: 10rem 0 0;
+}
+
+.about_wrapper .about_number{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 2.4rem;
+    padding: 0.4rem 1.7rem;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+    max-width: 4.4rem;
+    color: var(--text-white);
+    background-color: var(--bg-dark-green);
+}
+
+.about_wrapper .about_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 1.25;
+    max-width: 100rem;
+    margin-bottom: 2.5rem;
+    color: var(--text-black);
+}
+
+.about_wrapper .about_text{
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.7;
+    max-width: 70rem;
+    color: var(--text-light-2);
+
+}
+
+.about_wrapper .innovate{
+    background-color: var(--bg-light-2);
+    padding: 8rem 0;
+}
+
+.about_wrapper .projects{
+    padding: 3rem 0;
+}
+
+.about_wrapper .projects h2{
+    color: var(--text-orange);
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.about_wrapper .projects p{
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+    
+}

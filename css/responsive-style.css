@@ -39,6 +39,12 @@
     font-size: 3.6rem;
 }
 
+/* ---------------about-section-------------------------------- */
+
+.about_wrapper .about_title{
+    font-size: 1.6rem;
+}
+
 }
 
 @media (max-width: 991px){
@@ -70,6 +76,16 @@
 
     .header_wrapper .navbar-collapse{
         background: var(--bg-white);
+    }
+
+    /* -----------------about-section---------------------- */
+
+    .about_wrapper .about_title{
+        font-size: 2rem;
+    }
+
+    .about_wrapper .about_number{
+       margin: 2rem auto;
     }
 
 }
