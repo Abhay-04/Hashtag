@@ -105,4 +105,10 @@
 .banner_wrapper .learn-more-btn-section{
     justify-content: center;
 }
+
+/* ----------------pricing-section--------------- */
+
+.free_trial .free_title{
+    font-size: 2.4rem;
+}
 }

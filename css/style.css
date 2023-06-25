@@ -428,3 +428,179 @@ body{
     display: block;
     margin-top: -70px;
 }
+
+/* ----------------Pricing-section-styling--------------------- */
+.pricing_wrapper{
+    padding: 10rem 0 0;
+}
+
+.pricing_wrapper .pricing_subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: var(--text-light-3);
+}
+
+.pricing_wrapper .pricing_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 1.25;
+    margin-bottom: 2.5rem;
+    color: var(--text-black);
+}
+
+.pricing_wrapper .pricing_card{
+    background: var(--bg-white);
+    box-shadow: 0 1px 20px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 4rem 4.5rem 4rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.pricing_wrapper .pricing_card:hover{
+    box-shadow: 0 2px 29px rgb(0 0 0 / 20%);
+    z-index: 5;
+    cursor: pointer;
+}
+
+.pricing_wrapper .pricing_period{
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-bottom: 0;
+    color: var(--text-light-2);
+}
+
+.pricing_wrapper .pricing_card img{
+    max-width: 75%;
+
+}
+
+.pricing_wrapper .pricing_rate{
+    font-size: 3.4rem;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    color: var(--text-black);
+   line-height: 1.25;
+}
+
+.pricing_wrapper .pricing_text{
+    font-size: 1.2rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--text-black);
+    margin: 0 ;
+
+}
+
+.pricing_wrapper .pricing_all{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.pricing_wrapper .pricing_all ul{
+    width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.pricing_wrapper .pricing_all li{
+    font-size: 1.4rem;
+    color: var(--text-dark-gray);
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.pricing_wrapper .pricing_all li strike{
+    color: var(--text-light-4);
+}
+
+.pricing_wrapper .learn-more-btn {
+    background: var(--bg-dark-green);
+    border-color: var(--bg-dark-green);
+
+}
+
+.pricing_wrapper .featured{
+    box-shadow:  0 2px 40px rgb(0 0 0 /5%);
+    background-color: var(--bg-white);
+    border: 0.5rem solid var(--text-black);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.pricing_wrapper .pricing_ribbion{
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 20;
+}
+
+.pricing_wrapper .pricing_ribbion span{
+    font-family: var(--secondary-font);
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 5px 0;
+    background: var(--bg-black);
+    color: var(--text-white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    text-transform: uppercase;
+    text-align: center;
+    right: -45px;
+    top: 30px;
+    transform: rotate(-45deg);
+}
+
+.pricing_wrapper .btn_featured{
+    background-color: var(--bg-black);
+    border-color: var(--bg-black);
+}
+.pricing_wrapper .featured .pricing_rate{
+    font-size: 4rem;
+}
+
+/* ----------------Free-trial-styling--------- */
+
+.pricing_wrapper .free_trial{
+    background-color: var(--bg-light-2);
+    padding: 8rem 0;
+    margin-top: 10rem;
+}
+
+.free_trial .free_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 1.25;
+    margin-bottom: 0;
+    color: var(--text-black);
+}
+
+.free_trial .learn-more-btn{
+    background: var(--bg-black);
+    border-color: var(--bg-black);
+}
+
+.free_trial .learn-more-btn i{
+    font-size: 2.2rem;
+    margin-right: 0.5rem;
+    color: var(--text-yellow);
+    vertical-align: bottom;
+}
