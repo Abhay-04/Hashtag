@@ -768,3 +768,81 @@ body{
     line-height: 1.5;
     
 }
+
+/* --------------Footer-section-styling-------------- */
+
+.footer_wrapper{
+    padding: 10rem 0 2.5rem;
+    background-image: url(../images/bg_footer.png);
+    background-size: cover;
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    
+}
+
+.footer_wrapper .footer_logo img{
+    max-width: 30%;
+}
+
+.footer_wrapper .footer_title{
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--text-white);
+    margin-bottom: 2.5rem;
+}
+
+.footer_wrapper .footer_text ,
+.footer_wrapper .footer_text a{
+    margin-top: 3rem;
+    color: var(--text-white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+
+.footer_wrapper .footer_social_media_icon{
+    padding-right: 3rem;
+    color: var(--text-white);
+    font-size: 2rem;
+}
+
+.footer_wrapper .footer_credits{
+    color: var(--text-white);
+    border-top: 1px solid var(--text-white);
+    padding-top: 2rem;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+
+}
+
+.footer_wrapper .footer_credits a{
+    color: var(--text-yellow);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+/* -----------------Custom-scrollbar-styling------------------ */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg-light-2) ;
+
+}
+::-webkit-scrollbar-thumb{
+    background: var(--bg-black) ;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--bg-black) ;
+
+}
