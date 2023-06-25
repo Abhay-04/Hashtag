@@ -111,4 +111,9 @@
 .free_trial .free_title{
     font-size: 2.4rem;
 }
+
+/* --------------faq-section----------- */
+.faq_wrapper .accordion-button{
+    font-size: 1.8rem;
+}
 }

@@ -578,7 +578,7 @@ body{
 
 /* ----------------Free-trial-styling--------- */
 
-.pricing_wrapper .free_trial{
+ .free_trial{
     background-color: var(--bg-light-2);
     padding: 8rem 0;
     margin-top: 10rem;
@@ -695,4 +695,76 @@ body{
     transform: scale(1.2);
     position: relative;
     z-index: 2;
+}
+
+/* --------------Faqs-section-styling---------- */
+.faq_wrapper{
+    padding: 10rem 0 0;
+}
+
+.faq_wrapper .faq_subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0.5px;
+    color: var(--text-light-3);
+}
+
+.faq_wrapper .faq_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 1.25;
+    margin-bottom: 2.5rem;
+    color: var(--text-black);
+}
+
+.faq_wrapper .accordion-button:hover,
+.faq_wrapper .accordion-button:focus{
+    box-shadow: none;
+    color: var(--text-dark-green);
+}
+
+.faq_wrapper .accordion-item{
+    border: 0;
+}
+
+.faq_wrapper .accordion-button{
+    font-size: 2.1rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--text-black);
+    background: var(--bg-white);
+    border-radius: 0;
+    padding: 0 0 1.5rem 0;
+    border-bottom: 1px solid var(--text-light-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.faq_wrapper .accordion-button::after{
+    content: '\002B';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    background-image: none;
+}
+.faq_wrapper .accordion-button:not(.collapsed)::after{
+    content: '\2212';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    background-image: none;
+    font-weight: 800;
+    transform: unset;
+}
+
+.faq_wrapper .accordion-body{
+    color: var(--text-black);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin:  0 0 2rem 0;
+    padding-bottom: 2.5rem;
+    line-height: 1.5;
+    
 }
