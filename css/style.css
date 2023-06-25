@@ -310,3 +310,121 @@ body{
     color: var(--text-light-2);
     
 }
+
+/* ---------------------Features-section-styling-------------------------- */
+
+.features_wrappper{
+    padding: 10rem 0 8rem;
+    background-color: var(--bg-light-2);
+}
+
+.features_wrappper .features_subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: var(--text-light-2);
+}
+
+.features_wrappper .features_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 2.5;
+    margin-bottom: 2.5rem;
+    color: var(--text-black);
+}
+
+.features_wrappper h3{
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: var(--bold-font-weight);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: var(--text-black);
+}
+
+.features_wrappper .features_text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
+
+.features_wrappper .ft-1{
+    background: var(--bg-features-1);
+    padding: 4rem;
+    border-radius: 1.5rem;
+}
+
+.features_wrappper .ft-1:before{
+    content: url(../images/consultancy.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features_wrappper .ft-2{
+    background: var(--bg-features-2);
+    padding: 4rem;
+    border-radius: 1.5rem;
+}
+
+.features_wrappper .ft-2:before{
+    content: url(../images/solutions.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features_wrappper .ft-3{
+    background: var(--bg-features-3);
+    padding: 4rem;
+    border-radius: 1.5rem;
+}
+
+.features_wrappper .ft-3:before{
+    content: url(../images/simple.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features_wrappper .ft-4{
+    background: var(--bg-features-4);
+    padding: 4rem;
+    border-radius: 1.5rem;
+}
+
+.features_wrappper .ft-4:before{
+    content: url(../images/deadline.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features_wrappper .ft-5{
+    background: var(--bg-features-5);
+    padding: 4rem;
+    border-radius: 1.5rem;
+}
+
+.features_wrappper .ft-5:before{
+    content: url(../images/data.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+
+.features_wrappper .ft-6{
+    background: var(--bg-features-1);
+    padding: 4rem;
+    border-radius: 1.5rem;
+}
+
+.features_wrappper .ft-6:before{
+    content: url(../images/flexible.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
