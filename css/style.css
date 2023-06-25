@@ -604,3 +604,56 @@ body{
     color: var(--text-yellow);
     vertical-align: bottom;
 }
+
+/* ---------------------Testimonials-section-styling------------------ */
+
+.testimonial_wrapper{
+    padding: 10rem 0;
+}
+
+.testimonial_wrapper .testimonials_subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: var(--text-light-3);
+}
+
+.testimonial_wrapper .testimonials_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 3.4rem;
+    line-height: 1.25;
+    margin-bottom: 8rem;
+    color: var(--text-black);
+}
+
+.testimonial_wrapper .testimonials_card{
+    border-radius: 1.5rem;
+    padding: 5rem;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 15%);
+}
+
+.testimonial_wrapper .testimonials_card h3{
+    font-family: var(--secondary-font);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: var(--text-black);
+}
+
+.testimonial_wrapper .testimonials_card .testimonials_role{
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 2.5rem;
+    color: var(--text-dark-green);
+}
+
+.testimonial_wrapper .testimonials_card .testimonials_text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
